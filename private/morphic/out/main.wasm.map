@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.ts"],"names":[],"mappings":"8GAKa,AAAJ,EAAI,MAHb","sourceRoot":"assemblyscript:///","sourceContents":["declare function sayHello(): void;\n\nsayHello();\n\nexport function add(x: i32, y: i32): i32 {\n  return x + y;\n}\n"]}
