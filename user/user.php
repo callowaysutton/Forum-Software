@@ -74,16 +74,13 @@ body {
 
 </style>
     <?php
-
 $user     = "../../data/users/" . $_GET["id"];
+
+if (file_exists ($user)) {
+
 $points   = (file_get_contents("$user/points"));
 $verified = (file_get_contents("$user/verified"));
 $bio      = (file_get_contents("$user/bio"));
-
-
-
-
-if (file_exists ($user)) {
 ?>
 
 <nav>
