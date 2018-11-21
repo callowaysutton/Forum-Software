@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Protected"
+AuthUserFile D:\.htpass
+Require valid-user
