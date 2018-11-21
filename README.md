@@ -13,9 +13,6 @@ web directory.
 
 ** The folders should be a folder below where the first index file is and should be structured like below.
 ```
-          WebRoot
-             |
-            \ /
             data
              /\
             /  \
