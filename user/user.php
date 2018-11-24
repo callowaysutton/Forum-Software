@@ -116,5 +116,4 @@ if($loggedUser == $userID) {
 </body>
 <?php
 }
-
 ?>

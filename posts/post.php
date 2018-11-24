@@ -14,6 +14,9 @@ $userDir = "../../data/user/";
 if ($_SESSION["LOG"] == true) {
  $username = $_SESSION['USERNAME'];
 }
+
+if (file_exists("$path/0/title") == 1) {
+
 echo (file_get_contents("$path/0/title"));
 
 $type = file_get_contents("$path/0/type");
@@ -106,3 +109,15 @@ if (file_get_contents("../../data/users/$username/banned") == "1") {
 }
 ?>
   </center>
+  
+<?php	
+} else { ?>
+<body style="background-color:white">
+<center>
+<img src="404.png" />
+</center>
+</body>
+<?php
+}
+?>
+  
